@@ -16,7 +16,7 @@ clf.fit(X_train, y_train)
 
 acc = clf.score(X_test, y_test)
 print(acc)
-
+#prediction
 y_pred = clf.predict(X_test)
 
 metrics = """
